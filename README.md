@@ -69,4 +69,31 @@ print('Thank you so much, I appreciate that!')
 
 -----------------------------------------------
 
+SHOPPING CART EXERCISE
 
+>>>My code
+
+print('***WELCOME TO OUR USELESS STORE***')
+
+item=input('What item are you purchasing? ')
+
+price=input('What is a price of ' + item + "? ")
+
+quantity=input('How many' + ' ' + item + ' ' + 'are you buying? ')
+
+print('Added ' + quantity + ' ' + item + '(s)' + ' to shopping cart')
+print('Subtotal:' + '$' + str(int(price)*int(quantity)))
+
+>>>Supposed to be
+
+print("WELCOME TO THE USELESS STORE")
+print("*" * 30)
+
+item=input("What item are you purchasing? ")
+
+price=float(input(f"What is the price of {item}? "))
+
+quantity=float(input(f"How many {item} are you buying? "))
+
+print(f"Added {quantity} {item}(s) to a cart")
+print(f"Subtotal: ${quantity*price}")
