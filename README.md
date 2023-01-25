@@ -17,3 +17,12 @@ print(initials_2)
 
 nickname=last[:4]
 print(nickname)
+
+
+-----------------------------------------------
+
+Strings + Built-Ins + Functions Lesson
+
+Arguments - fancy words for inputs
+
+>>> burger(bun,secret_sauce,lettuce,tomato,bacon,cheese,well_done)
