@@ -34,4 +34,9 @@ input() - Function requires you to enter some input, then it will convert it to 
 >>>age=input('how old are you?')
 how old are you?
 
+>>>first_name=input("What is your name?")
+print('Hi there' + ' ' + first_name + '!!!')
+
+Result: Hi there NAME !!!
+
 -----------------------------------------------
