@@ -29,7 +29,7 @@ Arguments - fancy words for inputs
 
 -----------------------------------------------
 
-inpu() - Function requires you to enter some input, then it will convert it to a string and then it will return it. We can use this function to gather input in our programs.
+input() - Function requires you to enter some input, then it will convert it to a string and then it will return it. We can use this function to gather input in our programs.
 
 >>>age=input('how old are you?')
 how old are you?
