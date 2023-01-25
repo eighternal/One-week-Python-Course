@@ -26,3 +26,12 @@ Strings + Built-Ins + Functions Lesson
 Arguments - fancy words for inputs
 
 >>> burger(bun,secret_sauce,lettuce,tomato,bacon,cheese,well_done)
+
+-----------------------------------------------
+
+input() - Function requires you to enter some input, then it will convert it to a string and then it will return it. We can use this function to gather input in our programs.
+
+>>>age=input('how old are you?')
+how old are you?
+
+-----------------------------------------------
