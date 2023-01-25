@@ -26,3 +26,9 @@ Strings + Built-Ins + Functions Lesson
 Arguments - fancy words for inputs
 
 >>> burger(bun,secret_sauce,lettuce,tomato,bacon,cheese,well_done)
+
+Length len() function example
+
+word=('chicken')
+len(word)
+7
