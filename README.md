@@ -50,3 +50,23 @@ full_name=first_name + ' ' + last_name
 print('Hey there ' + full_name)
 
 -----------------------------------------------
+
+AGE CALCULATOR EXCERCISE COMPLETE!!!
+
+print('***WELCOME TO THE NAME APP***')
+
+first_name=input('What is your first name?')
+last_name=input('What is your last name?')
+
+full_name=first_name + ' ' + last_name
+print('Hey there ' + full_name)
+
+age=input('How old are you?')
+
+print('You are' + ' ' + str(int(age)*365) + ' ' + 'days old!')
+
+print('Thank you so much, I appreciate that!')
+
+-----------------------------------------------
+
+
