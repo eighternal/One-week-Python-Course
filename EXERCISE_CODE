@@ -1,0 +1,57 @@
+secret_num=943
+
+secret_num+=1
+
+secret_num*=2
+
+secret_num+=4
+
+secret_num/=2
+
+print(secret_num-943)
+
+print("CORRECT!!! CONGRATULATIONS!!!")
+
+first_name="Nico"
+last_name="Hulkenberg"
+
+full_name=(first_name+" "+last_name)
+
+print(full_name)
+
+initials=(first_name[0]+" "+last_name[0])
+
+print(initials)
+
+initials_2=(first_name[0]+"."+last_name[0]+".")
+
+print(initials_2)
+
+nickname=last_name[:4]
+
+print(nickname)
+
+print("CORRECT!!! CONGRATULATIONS!!! GOOD JOB")
+
+age=int(input("How old are you in years? "))
+print(f"You are {age*365} days old!!!")
+
+print(" ")
+print("YES! YES!! YES!!!!!! KEEP GOING!!!!!!!")
+print(" ")
+print("WELCOME TO OUR USELESS STORE")
+print("*"*30)
+
+item=str(input("What item are you buying? "))
+
+price=float(input(f"What is the price of {item}? "))
+
+quantity=float(input(f"How many {item} are you buying? "))
+
+print(" ")
+print(f"Added {quantity} {item}(s) to shopping cart")
+print(f"Subtotal: ${price*quantity}")
+print(" ")
+print("THANK YOU FOR YOUR NON-EXISTENT PURCHASE!!!!!!!")
+print(" ")
+print("YOU DID THE GOODEST JOB AND YOU ARE THE BEST!!!!!")
