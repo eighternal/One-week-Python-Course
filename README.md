@@ -97,3 +97,12 @@ quantity=float(input(f"How many {item} are you buying? "))
 
 print(f"Added {quantity} {item}(s) to a cart")
 print(f"Subtotal: ${quantity*price}")
+
+-----------------------------------------------
+COMPLETE
+
+-----------------------------------------------
+
+Strip Methods
+
+Strip Methods require a signature, provided in ([]). If no signature is provided, it goes with space by default.
