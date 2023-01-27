@@ -108,3 +108,73 @@ Strip Methods
 Strip Methods require a signature, provided in ([]). If no signature is provided, it goes with space by default.
 
 EXAMPLE: "        hello    ".strip() - returns 'hello'
+
+removes leading and trailing characters until it hits a non-space character (or other provided signature)
+
+>>> "www.example.com".strip('cmowz.') will return 'example'
+
+in description of a method, the siqnature goes in square brackets, and that means that you dont have to provide that (by defaulte the method will strip the string of all spaces
+
+-----------------------------------------------
+
+REPLACE METHODS
+
+>>>str.replace(old,new,[count])
+
+Replace method requires arguments
+
+>>> freelance="agoodjob"
+freelance.strip("good","bad")
+abadjob
+
+Use empty space as a replacement to delete a symbol
+
+>>> prices="982379879$$$NJhsHGHG44$$$$$O&83O74287479879$$$"
+prices.replace("$","")
+"982379879NJhsHGHG44O&83O74287479879"
+
+IMPORTANT
+
+every signature in round brackets is required, every signature in square brackets is optional 
+
+-----------------------------------------------
+
+FIND AND INDEX METHOD
+
+>>>str.find(req,[opt_start_from],[opt_end_at])
+
+EXAMPLE: word="lickitylicklick"
+word.find("l", 1)
+8
+
+will return -1 if nothing is found
+
+-----------------------------------------------
+
+REPLACE AND COUNT METHOD
+
+>>> msg="Hot dog"
+msg.replace("o","u")
+Hut dug
+
+>>> msg.replace("o","u", 1)
+Hut dog
+
+>>> msg.count("u")
+0
+msg.count("o")
+2
+
+The method will do what it tells - replace or count the specified signature as many times as you will tell it to
+
+-----------------------------------------------
+
+METHOD CHAINING
+
+Methods can be chainde together to execute multiple actions at a time in a single line of code
+
+>>> email="TOdd@gmail.com    "
+print(email.lower().strip(" "))
+todd@gmail.com
+
+Not every method can be chained, only methods that return similar types of object
