@@ -106,3 +106,5 @@ COMPLETE
 Strip Methods
 
 Strip Methods require a signature, provided in ([]). If no signature is provided, it goes with space by default.
+
+EXAMPLE: "        hello    ".strip() - returns 'hello'
