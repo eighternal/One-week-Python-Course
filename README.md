@@ -260,3 +260,10 @@ str3 = "ABc"
 print(str1 > str2)
 print(str2>str3)
 print(str1>str3)
+
+DECISIONS EXERCISE
+
+COMPLETE!!!!
+
+-----------------------------------------------
+
