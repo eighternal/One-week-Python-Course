@@ -267,3 +267,8 @@ COMPLETE!!!!
 
 -----------------------------------------------
 
+if/elif statement
+
+if requires a Condition, the result of succesful if statement will be True
+
+else - launches ONLY if "if" statement is not accomplished.
