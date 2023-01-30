@@ -1,1 +1,17 @@
+first_name=input("What is your first name? ")
+last_name=input("What is your last name? ")
 
+average_american_name=12
+
+if len(first_name+last_name) > average_american_name:
+    print("*"*40)
+    print(f"{first_name} {last_name} is longer than the average American name!!!")
+    print("*"*40)
+elif len(first_name+last_name) < average_american_name:
+    print("*"*40)
+    print(f"{first_name} {last_name} is shorter than the average American name!!!")
+    print("*"*40)
+
+else:
+    print("*"*40)
+    print(f"{first_name} {last_name} is the same length as the average American name!!!")
