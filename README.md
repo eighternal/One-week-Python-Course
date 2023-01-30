@@ -178,3 +178,85 @@ print(email.lower().strip(" "))
 todd@gmail.com
 
 Not every method can be chained, only methods that return similar types of object
+
+-----------------------------------------------
+
+BOOLEANS
+
+Booleans are another basic Python type. There are only two possible values: True and False. Notice the capitalization!!!
+
+>>> True
+>>> False
+
+Decision making is broken down into a series of yes or no questions.
+
+>>> isAlive = True
+>>> isAlive = False
+
+Comparison operator
+
+> Greater then
+< Lesser then
+>= Greater Then or Equels To
+<= Lesser Then or Equals To
+
+a>b - a is greater then b
+
+a<b - a is lesser then b
+
+a>=b - a is greater or equals to b
+
+a<=b - a is lesser or equals to b
+
+>>> 3>10
+False
+
+>>> 30>10
+True
+
+>>> age=33
+age>21
+True
+
+>>> age+33
+age>=33
+True
+
+Booleans - kinda understand, need practice
+
+More on booleans
+
+== Equal To
+!= Not Equal to
+
+Notice: 4.0 == 4
+True
+
+Two data enteries are compared and the result is equal, no matter that one is integer and the other is a float.
+
+Every value is inherently Truth-y or False-y in Python.
+
+>>> False-y False, 0.0, 0, Empty strings, None, range(0), Empty data structures [](){} set()
+>>> Truth-y everything else!
+
+bool()
+Just as we can use int(), float(), and str() to cast values, we can use bool()to cast a value to a Boolean
+
+This is one way to determine wether Python considers a value to be Truth-y or False-y
+
+>>> bool()
+
+in Operator looks to see if an item is a member of a sequence
+
+>>> "a" in "bat"
+True
+
+Comparing strings
+
+>>> str1 = "ABC"
+str2 = "AbC"
+str3 = "ABc"
+
+print(str1 > str2)
+print(str2>str3)
+print(str1>str3)
