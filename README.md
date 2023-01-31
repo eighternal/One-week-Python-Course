@@ -272,3 +272,15 @@ if/elif statement
 if requires a Condition, the result of succesful if statement will be True
 
 else - launches ONLY if "if" statement is not accomplished.
+
+-----------------------------------------------
+
+Logical AND and OR
+
+Logical AND requires both of left and right sides evaluate to True
+>>> "a" == "a" and 1<5
+True
+
+Logical OR requires at least one side evaluate True to be True
+>>> "a" == "b" or 1<5
+True
