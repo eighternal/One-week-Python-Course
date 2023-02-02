@@ -284,3 +284,17 @@ True
 Logical OR requires at least one side evaluate True to be True
 >>> "a" == "b" or 1<5
 True
+
+-----------------------------------------------
+
+LOOPS
+
+Loops are programming structure that allow us to repeat lines or a single line of code
+
+Loops can come into play either with While or For functions
+
+>>> count = 10
+
+while coount >=0:
+  print(count)
+  count -= 1
