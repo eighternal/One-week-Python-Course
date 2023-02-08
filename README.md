@@ -298,3 +298,10 @@ Loops can come into play either with While or For functions
 while coount >=0:
   print(count)
   count -= 1
+
+-----------------------------------------------
+
+>>> for item in iterable:
+  statement
+  
+Ranges can be used: range(from, to, step)
