@@ -305,3 +305,9 @@ while coount >=0:
   statement
   
 Ranges can be used: range(from, to, step)
+
+-----------------------------------------------
+
+Completed "matches" game exercise, using while True loop
+
+-----------------------------------------------
